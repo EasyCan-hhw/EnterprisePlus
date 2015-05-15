@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ModuleApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_mall_text">商城</string>
+    <string name="first_about_text">关于</string>
+    <string name="first_activity_text">活动</string>
+    
+</resources>

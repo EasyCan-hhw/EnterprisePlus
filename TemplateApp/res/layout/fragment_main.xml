@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/Text_zip"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="@string/hello_world" />
+    <TextView 
+        android:id="@+id/http_value"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/Text_zip"
+        android:textSize="15dp"
+        android:textColor="#ff0000"
+        />
+
+</RelativeLayout>

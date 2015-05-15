@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            
+            <RelativeLayout
+                android:id="@+id/forst_mall"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+                
+                <TextView 
+                    android:id="@+id/first_mall_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    />
+                
+                <TextView 
+                    android:id="@+id/first_mall_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_below="@id/first_mall_image"
+                    android:textSize="@dimen/dp_10"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout
+                android:id="@+id/forst_activity"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+                
+                <TextView 
+                    android:id="@+id/first_activity_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    />
+                
+                <TextView 
+                    android:id="@+id/first_activity_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_below="@id/first_activity_image"
+                    android:textSize="@dimen/dp_10"
+                    />
+                
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/forst_about"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+                
+                <TextView 
+                    android:id="@+id/first_about_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    />
+                
+                <TextView 
+                    android:id="@+id/first_about_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_below="@id/first_about_image"
+                    android:textSize="@dimen/dp_10"
+                    />
+                
+                
+            </RelativeLayout>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
